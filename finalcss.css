@@ -1,0 +1,121 @@
+
+.container{
+	width:90%;
+	margin:0 auto;
+}
+
+body {
+    margin: 10px 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(120, 170, 200);
+}
+
+body * {
+    background: white;
+}
+
+header {
+    border: 2px red solid;
+    line-height: 110px;
+    text-align: center;
+    font-size: 25pt;
+    color: RED;
+    margin: 15px 0;
+}
+
+h2 {
+    background-color: lightgray;
+    padding: .4em .9em;
+    font-size:2em ;
+	text-align: left;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    padding:.5em;
+    text-align: center;
+    margin-right: 20px;
+    border: 2px red solid;
+    display: inline-block;
+}
+
+nav ul li{
+    display:inline-block;
+    
+}
+
+nav ul{
+    padding-left:1.2em;
+    margin:0px;
+}
+
+nav ul li a{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding:0 .5em;	
+    font-weight:bold;
+    text-transform: uppercase;
+    font: size 1em;
+}
+
+.submit, .reset {
+    line-height: 25px;
+}
+
+label {
+    font-size: 12pt;
+    line-height: 10px;
+}
+
+div.gallery {
+    border: 10px solid white;
+  }
+  
+div.gallery:hover {
+    border: 10px solid purple;
+  }
+  
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 25%;
+    padding:0 .5em;	
+  }
+  
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width: 48%;
+      margin: 10px 0;
+      padding:0 .5em;	
+    }
+  }
+  
+@media only screen and (max-width: 600px) {
+    .responsive {
+      width: 100%;
+      padding:0 .5em;	
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
